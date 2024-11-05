@@ -4,9 +4,15 @@ Project 2 of the Capstone project
 ## Excel
 - Analyze customer data using pivot tables to find subscription patterns.
 
+ ![Pivot table 2](https://github.com/user-attachments/assets/518d3927-45d7-419c-a167-3e2cbc1b7a8d)
+
+
 - Calculate the average subscription duration and identify the most popular subscription types.
 
-- Create any other interesting reports.
+  ![Average subscription duration](https://github.com/user-attachments/assets/6d9a0c88-b959-4545-86e4-12098987159a)
+
+
+- Create any other interesting report.
 
 
 ## SQL
