@@ -99,3 +99,9 @@ from Capstone_CustomerData
 ```
 
 ## Power Bi
+![Number of cancellations per month](https://github.com/user-attachments/assets/f88f6bd5-d04e-4901-8045-154694f8a51a)
+
+![Cancellation overview](https://github.com/user-attachments/assets/7b4a698d-c463-4794-b1c6-3c667f809953)
+
+
+
