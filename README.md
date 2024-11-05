@@ -11,7 +11,7 @@ Project 2 of the Capstone project
 select * from Capstone_CustomerData
 ```
 
- --- retrieve the total number of customers from each region ---
+> retrieve the total number of customers from each region ---
 
  ```SQL
 select count(distinct customerid) as number_customers, region
@@ -19,7 +19,7 @@ select count(distinct customerid) as number_customers, region
  group by region
 ```
 
- --- find the most popular subscription type by the number of customers. ---
+> find the most popular subscription type by the number of customers. ---
  
  ```SQL
  create view view_two as
@@ -32,7 +32,7 @@ select count(distinct customerid) as number_customers, region
 select top 1* from view_two
 ```
 
- --- find customers who canceled their subscription within 6 months  ---
+> find customers who canceled their subscription within 6 months  ---
 
 ```SQL
 select CustomerID, customername
@@ -77,12 +77,15 @@ from Capstone_CustomerData
 
  > find the total number of active and canceled subscriptions. ---
 
+``` SQL
  select count(distinct customerid) nb_active
  from Capstone_CustomerData
  where canceled = 'faux'
-
+```
+``` SQL
  select count(distinct customerid) nb_canceled
  from Capstone_CustomerData
  where canceled = 'vrai'
+```
 
 ## Power Bi
