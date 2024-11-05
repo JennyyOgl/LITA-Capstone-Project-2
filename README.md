@@ -32,7 +32,7 @@ select count(distinct customerid) as number_customers, region
 select top 1* from view_two
 ```
 
-> find customers who canceled their subscription within 6 months  ---
+> find customers who canceled their subscription within 6 months  
 
 ```SQL
 select CustomerID, customername
@@ -41,7 +41,7 @@ select CustomerID, customername
 ```
  
 
-> calculate the average subscription duration for all customers ---
+> calculate the average subscription duration for all customers 
 
 ```SQL
 select AVG(DATEDIFF(month, subscriptionstart, subscriptionend))
@@ -49,7 +49,7 @@ as average_subs_duration
 from Capstone_CustomerData
 ```
 
-> find customers with subscriptions longer than 12 months ---
+> find customers with subscriptions longer than 12 months 
 
 ```SQL
  select CustomerID, customername
@@ -57,7 +57,7 @@ from Capstone_CustomerData
  where DATEDIFF(month, subscriptionstart, subscriptionend) >12
 ```
 
-> calculate total revenue by subscription type. ---
+> calculate total revenue by subscription type. 
 
  ```SQL
  select sum(revenue) as revenue_per_substype, SubscriptionType
@@ -65,7 +65,7 @@ from Capstone_CustomerData
  group by SubscriptionType
 ``
 
- > find the top 3 regions by subscription cancellations. ---
+ > find the top 3 regions by subscription cancellations. 
 
 ```SQL
  select top 3 count(distinct customerid) nb_cancel, region
