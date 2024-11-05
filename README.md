@@ -63,7 +63,7 @@ from Capstone_CustomerData
  select sum(revenue) as revenue_per_substype, SubscriptionType
  from Capstone_CustomerData
  group by SubscriptionType
-``
+```
 
  > find the top 3 regions by subscription cancellations. 
 
