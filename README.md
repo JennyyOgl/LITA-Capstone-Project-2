@@ -2,7 +2,11 @@
 Project 2 of the Capstone project
 
 ## Excel
+> Analyze customer data using pivot tables to find subscription patterns.
 
+> Calculate the average subscription duration and identify the most popular subscription types.
+
+> Create any other interesting reports.
 
 
 ## SQL
